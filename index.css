@@ -1,0 +1,63 @@
+body {  
+    margin: 0;  
+    font-family: sans-serif;  
+}  
+
+.container {  
+    width: 100%;  
+    height: 100vh;  
+    position: relative;  
+}  
+
+header {  
+    position: relative;  
+    background-color: #add8e6; /* Azul claro */  
+    height: 10%;  
+    width: 100%;  
+}  
+
+main {  
+    position: relative;  
+    width: 100%;  
+    height: 80%; /* Ajustado para el footer */  
+    display: flex;  
+}  
+
+.left-panel {  
+    position: relative;  
+    background-color: #d3d3d3; /* Gris claro */  
+    width: 50%;  
+    height: 100%;  
+}  
+
+.right-panel {  
+    position: relative;  
+    width: 50%;  
+    height: 100%;  
+    display: flex;  
+    flex-direction: column; /* Apila los elementos verticalmente */  
+}  
+
+.top-right, .bottom-right {  
+    position: relative;  
+    background-color: #7fffd4; /* Aguamarina */  
+    height: 50%; /* Cada uno ocupa la mitad del right-panel */  
+    width: 100%;  
+    box-sizing: border-box;  
+    border: 10px solid #4169e1; /* Azul medio */  
+}  
+
+footer {  
+    position: relative;  
+    background-color: #add8e6; /* Azul claro */  
+    height: 10%;  
+    width: 100%;  
+}  
+
+/* Estilos adicionales para footer */  
+footer {  
+    position: relative;  
+    background-color: firebrick; /* Color rojo ladrillo */  
+    height: 10%;  
+    width: 100%;  
+}
